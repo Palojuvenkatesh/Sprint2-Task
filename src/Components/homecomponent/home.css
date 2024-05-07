@@ -1,0 +1,205 @@
+/* Main  */  
+.main-container {
+    grid-area: main;
+    overflow-y: auto;
+    padding: 20px 20px;
+    color: rgba(255, 255, 255, 0.95);
+  }
+  
+  .main-title {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  }
+  
+  .main-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 15px 0;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  .card:first-child {
+    background-color: #2962ff;
+  }
+  
+  .card:nth-child(2) {
+    background-color: #ff6d00;
+  }
+  
+  .card:nth-child(3) {
+    background-color: #2e7d32;
+  }
+  
+  .card:nth-child(4) {
+    background-color: #d50000;
+  }
+  
+  .card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-inner > .card_icon {
+    font-size: 25px;
+  }
+  
+  .charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+    height: 300px;
+  }
+  
+  /* End Main  */
+  
+
+
+
+  .input-box1{
+    width: 500px;
+    border: 1px solid skyblue;
+  }
+  
+  .main-container {
+    grid-area: main;
+    overflow-y: auto;
+    padding: 20px 20px;
+    color: rgba(255, 255, 255, 0.95);
+    /* background-color: #263043; */
+    /* background-color: white; */
+    width: 100vw;
+    
+  
+  }
+  .namee{
+    color: black;
+    margin-right: 200px;
+  }
+  .Add-new-product{
+    color:white;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    margin-right: 250px;
+  }
+
+
+
+  /*chatgpt
+
+  /* Main */
+.main-container {
+    grid-area: main;
+    overflow-y: auto;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.95);
+    /* background-color: white; */
+    width: 80vw;
+    max-width: 100%; /* Ensures container doesn't exceed screen width */
+}
+
+/* Form input */
+.input-box1 {
+    width: 100%; /* Make input box fill its container */
+    border: 1px solid skyblue;
+    padding: 10px;
+    
+    box-sizing: border-box; /* Ensure padding doesn't increase width */
+}
+
+/* Form label */
+.namee {
+    color: black;
+}
+
+/* Form wrapper */
+.form-wrapper {
+    width: 100%; /* Ensure form takes full width of container */
+}
+
+/* Submit button */
+.btn-primary {
+    width: 100%; /* Make button fill its container */
+    padding: 10px;
+}
+
+/* Title */
+.main-title {
+    display: flex;
+    justify-content: left; /* Center align title */
+    margin-bottom: 20px;
+}
+
+/* Add New Product */
+.Add-new-product {
+    color: black;
+    font-weight: bold;
+    text-align: center; /* Center align text */
+    margin-bottom: 20px;
+}
+
+/* Grid */
+.main-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 200px;
+    margin: 15px 0;
+}
+
+/* Cards */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Card inner */
+.card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Card icon */
+.card_icon {
+    font-size: 25px;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .main-container {
+        width: 90vw; /* Adjust width for smaller screens */
+    }
+
+    .main-cards {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust card layout for smaller screens */
+    }
+
+    .input-box1 {
+        width: 100%; /* Ensure input box fills its container */
+    }
+
+    .btn-primary {
+        width: 100%; /* Ensure button fills its container */
+    }
+
+.namee{
+        color: black;
+        margin-right: 200px;
+      }
+    
+}

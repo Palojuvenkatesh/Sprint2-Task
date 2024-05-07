@@ -1,0 +1,79 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid skyblue; /* Border for each cell */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.product-list-header{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.search-product-box{
+    width: 500px;
+    margin: 20px;
+    height: 40px;
+    padding-left: 30px;
+    border: solid 1px skyblue;
+    margin-left: 200px;
+}
+
+
+.btttn{
+    width: 70px;
+    height: 33px;
+}
+
+/*
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid skyblue; /* Border for each cell */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Product list header */
+.product-list-header {
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center; /* Center align header */
+    color: black;
+}
+
+/* Search product box */
+.search-product-box {
+    width: 100%; /* Make input box fill its container */
+    max-width: 500px; /* Limit max width */
+    margin: 20px auto; /* Center align and provide spacing */
+    height: 40px;
+    padding-left: 30px;
+    border: solid 1px skyblue;
+}
+
+/* Table responsive */
+@media screen and (max-width: 768px) {
+    .table {
+        overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+    }
+}
