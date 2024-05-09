@@ -67,7 +67,7 @@
 
 
   .input-box1{
-    width: 500px;
+    width: 600px;
     border: 1px solid skyblue;
   }
   
@@ -85,6 +85,7 @@
   .namee{
     color: black;
     margin-right: 200px;
+    font-size: 18px;
   }
   .Add-new-product{
     color:white;
@@ -111,7 +112,7 @@
 
 /* Form input */
 .input-box1 {
-    width: 100%; /* Make input box fill its container */
+     /* Make input box fill its container */
     border: 1px solid skyblue;
     padding: 10px;
     
