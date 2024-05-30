@@ -30,8 +30,11 @@ th {
 
 
 .btttn{
-    width: 70px;
-    height: 33px;
+    width: 60px;
+    height: 32px;
+    padding-top: 5px;
+    
+    margin-right: 20px;
 }
 
 /*
